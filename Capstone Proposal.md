@@ -2,8 +2,6 @@
 
 ## Overview
 
-What is your app? Brief description in a couple of sentences.
-
 Ensemble is a modern wardrobe management tool which takes inspiration from Cher's closet from the movie 'Clueless'. It allows users to take pictures of their clothing and assemble them into an outfit.
 
 
@@ -30,49 +28,49 @@ Special considerations: easy-to-use interface
 
 ### Tech Stack
 
-List technologies that will be used in your app, including any libraries to save time or provide more functionality. Be sure to research any potential limitations.
-Frontend: React
-Backend: Node.js, Express.js
-Database: postgreSQL
+- Frontend: React
+- Backend: Node.js, Express.js
+- Database: PostgreSQL
 
 ### APIs
 
-OpenWeather, Imagga for image recognition 
+- OpenWeather, Imagga for image recognition 
 
 ### Sitemap
 
-Home screen - overview/outfits of the day suggestion
-Closet screen: manage/view clothing items
-Outift planner: calendar/outfit creation
-Profile: user setting and preferences
+- Home screen - overview/outfits of the day suggestion
+- Closet screen: manage/view clothing items
+- Outift planner: calendar/outfit creation
+- Profile: user setting and preferences
 
 ### Mockups
 
-Provide visuals of your app's screens. You can use tools like Figma or pictures of hand-drawn sketches.
+![image](https://github.com/maishamir/ensemble-app/assets/45680002/732975c8-2916-4a34-bf25-3f614ccdbd0a)
+![image](https://github.com/maishamir/ensemble-app/assets/45680002/5a66d4ec-b3af-4a77-8b58-425973489cd4)
+
+
 
 ### Data
 
-clothing items: details such as color, type, category, image, type of weather to wear it in (optional)
-outfits: combinations of clothing items set for specific days (i.e. work, brunch, date, interview, etc.)
+- clothing items: details such as color, type, category, image, type of weather to wear it in (optional)
+- outfits: combinations of clothing items set for specific days (i.e. work, brunch, date, interview, etc.)
 
 
 ### Endpoints
 
-GET /clothes - retrieve list of all clothing items
-POST /clothes - add a new clothing item
-GET /outfits - retrieve all planned outfits
-POST /outfits - plan a new outfit
-GET /weather - (not sure about this one yet) get weather data to generate different outfit suggestions
+- GET /clothes - retrieve list of all clothing items
+- POST /clothes - add a new clothing item
+- GET /outfits - retrieve all planned outfits
+- POST /outfits - plan a new outfit
+- GET /weather - (not sure about this one yet) get weather data to generate different outfit suggestions
 
 ### Auth
 
-Users create accounts and log in
-JWT for authentication
-Maybe OAuth for different social platform sharing (Facebook, Instagram, etc.)
+- Users create accounts and log in
+- JWT for authentication
+- Maybe OAuth for different social platform sharing (Facebook, Instagram, etc.)
 
 ## Roadmap
-
-Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
 
 ### Project setup and UI design
 1. Finalize mockup for Different screens
